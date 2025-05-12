@@ -1,0 +1,12 @@
+/navegar-facil
+│
+├── index.html              ← Página principal
+├── style/
+│   └── estilo.css          ← Estilos da interface
+├── scripts/
+│   └── acessibilidade.js   ← Scripts dos botões (ex: aumentar fonte, contraste)
+├── audio/
+│   └── noticia.mp3         ← Áudios das notícias
+├── imagens/
+│   └── destaque.jpg        ← Imagens usadas no site
+└── README.md               ← (opcional) informações do projeto
