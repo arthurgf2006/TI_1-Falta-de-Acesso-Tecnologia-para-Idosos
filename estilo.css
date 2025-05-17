@@ -60,3 +60,12 @@ main {
       padding-top: 10px;
       font-size: 0.9em;
     }
+    .alto-contraste {
+      background-color: black !important;
+      color: white !important;
+    }
+    
+    .alto-contraste a {
+      color: #0ff !important; 
+    }
+    
