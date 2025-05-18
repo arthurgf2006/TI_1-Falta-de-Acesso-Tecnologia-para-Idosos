@@ -1,46 +1,38 @@
 body {
-  background: linear-gradient(120deg, #f7fbff 0%, #e7f0fc 100%);
+  background: linear-gradient(120deg, #f7fbff 0%, #e9fbe7 100%);
 }
 
 .wire-header {
-  background: linear-gradient(90deg, #0170c3 40%, #6fd0ff 100%);
+  background: linear-gradient(90deg, #108644 40%, #8be581 100%);
   border-bottom: 0;
-  box-shadow: 0 3px 16px -8px #0170c358;
+  box-shadow: 0 3px 16px -8px #17884851;
 }
 
 .wire-header input.form-control {
   border-radius: 1rem;
-  border: 1.4px solid #aad4fe;
-  box-shadow: 0 2px 6px 0 #0170c10a;
+  border: 1.4px solid #b5efc4;
+  box-shadow: 0 2px 6px 0 #1b83470a;
 }
 
-.wire-link {
-  color: #08568a !important;
-  font-size: 1rem;
-  text-decoration: underline;
-}
+.wire-link { color: #18874c !important; font-size: 1rem; text-decoration: underline; }
 
 .btn-dark.btn-sm {
-  background: #ffc857;
+  background: #ffbd39;
   border: none;
-  color: #173c50;
+  color: #134126;
   font-weight: 600;
   border-radius: 0.55rem;
 }
-.btn-dark.btn-sm:hover,
-.btn-dark.btn-sm:focus {
-  background: #ffd880;
-  color: #001a2e;
-}
+.btn-dark.btn-sm:hover, .btn-dark.btn-sm:focus { background: #ffd27d; color: #001a2e; }
 
 .wire-navbar {
-  background: #f1f4f8;
+  background: #eefaf0;
   min-height: 48px;
-  border-top: 2.5px solid #e2f1fc;
-  border-bottom: 2.5px solid #e2f1fc;
+  border-top: 2.5px solid #bbead9;
+  border-bottom: 2.5px solid #bbead9;
 }
 .wire-nav-link {
-  color: #1a4b78;
+  color: #166d39;
   font-weight: 500;
   padding: .4rem 1.5rem;
   font-size: 1.07rem;
@@ -55,17 +47,17 @@ body {
 .wire-nav-link:focus,
 .wire-nav-link:hover {
   color: #fff !important;
-  background: #0170c3 !important;
+  background: #108644 !important;
   font-weight: 700;
-  box-shadow: 0 1.5px 14px 0 #137cbb35;
+  box-shadow: 0 1.5px 14px 0 #11b27135;
   border-bottom: none;
 }
 
 .tutorial-card {
-  background: linear-gradient(140deg, #fff 65%, #e3f2ff 120%);
+  background: linear-gradient(140deg, #fbfff8 65%, #97ebae 120%);
   border: 0;
   border-radius: 1.22rem;
-  box-shadow: 0 8px 32px 0 #3d8ecc19, 0 1.5px 8px 0 #0170c124;
+  box-shadow: 0 8px 32px 0 #15c35b17, 0 1.5px 8px 0 #207c2640;
   padding: 0;
   min-height: 350px;
   display: flex;
@@ -75,17 +67,16 @@ body {
   position: relative;
   overflow: hidden;
 }
-.tutorial-card:focus-within,
-.tutorial-card:hover {
-  box-shadow: 0 16px 48px 0 #4dbaff31, 0 6px 16px #0170c133;
+.tutorial-card:focus-within, .tutorial-card:hover {
+  box-shadow: 0 16px 48px 0 #2be06d31, 0 6px 16px #137c4033;
   transform: translateY(-2px) scale(1.024);
-  border: 1.5px solid #ffc85755;
+  border: 1.5px solid #ffe29e77;
 }
 .tutorial-card:active {
   transform: scale(.985);
 }
 .tutorial-image-placeholder {
-  background: linear-gradient(90deg,#aac8eb 35%,#e1edfa 100%);
+  background: linear-gradient(90deg,#b7eac0 35%,#f0fbef 100%);
   min-height: 170px;
   border-radius: 1.22rem 1.22rem 0 0;
   margin-bottom: 0.5rem;
@@ -98,8 +89,8 @@ body {
   flex-direction: column;
 }
 .tutorial-category {
-  color: #1575be;
-  background: #e7f7ff;
+  color: #18874c;
+  background: #e8fbe4;
   font-size: 0.98rem;
   font-weight: 600;
   margin-bottom: 0.15rem;
@@ -112,33 +103,51 @@ body {
   font-size: 1.21rem;
   font-weight: 700;
   margin-bottom: 0.21rem;
-  color: #21334c;
+  color: #215b2e;
 }
 .tutorial-desc {
-  color: #4878a0;
+  color: #247e48;
   font-size: 0.99rem;
   margin-bottom: .7rem;
 }
 .tutorial-author {
-  color: #4da87b;
+  color: #27b96a;
   font-size: 1rem;
   margin-top: auto;
   font-weight: 500;
 }
 .tutorial-date {
-  color: #ada690;
+  color: #a4bb90;
   font-size: 0.97rem;
   float: right;
   font-weight: 400;
 }
-
+/* Centralizar header text com mesmo fix anterior */
+.wire-header .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wire-header .header-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+}
 @media (max-width: 1100px) {
   .tutorial-card { min-height: 280px; }
   .tutorial-image-placeholder { min-height: 90px; }
 }
+@media (max-width: 700px) {
+  .tutorial-card { min-height: 180px; }
+  .tutorial-image-placeholder { min-height: 60px; }
+  .main-container { padding: 0; }
+  header, .wire-nav { padding: 0 2vw; }
+  .wire-nav-link { font-size: .93rem; }
 
-@media (max-width: 768px) {
-  .wire-header {
+    .wire-header {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -153,31 +162,6 @@ body {
     text-align: center;
   }
 
-  .header-center button {
-    width: 100%;
-    font-size: 1.2rem;
-  }
-
-  #wrapper-home {
-    order: 1;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0.4rem;
-  }
-
-  #wrapper-search {
-    order: 3;
-    width: 100%;
-    max-width: none !important;
-    margin: 0.4rem 0;
-  }
-
-  .wire-header .ms-auto {
-    order: 4;
-    width: 100%;
-    justify-content: center;
-    margin-top: 0.5rem;
-  }
 }
 
 .header-center {

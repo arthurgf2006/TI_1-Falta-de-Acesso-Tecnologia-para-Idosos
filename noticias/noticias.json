@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "categoria": "Saúde e Bem-estar",
+    "titulo": "Práticas Simples Para Reduzir o Estresse Diariamente",
+    "descricao": "Veja como pequenas mudanças nos hábitos podem ter um impacto positivo no seu bem-estar físico e mental.",
+    "autor": "Arthur Fonseca",
+    "data": "17 Maio 2025",
+    "imagem": "https://thumbor.guiame.com.br/unsafe/smart/media.guiame.com.br/archives/2014/08/07/192267864-.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "Tecnologia",
+    "titulo": "Desvendando o 5G: O Que Muda Para Você",
+    "descricao": "A chegada da tecnologia 5G traz mais velocidade e novas possibilidades para o seu celular, sua casa e sua vida digital.",
+    "autor": "Arthur Fonseca",
+    "data": "13 Maio 2025",
+    "imagem": "https://f.i.uol.com.br/fotografia/2022/03/02/1646196984621ef8f8ce5bd_1646196984_3x2_rt.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "Segurança Digital",
+    "titulo": "Golpes Digitais: Como se Proteger na Internet",
+    "descricao": "Golpistas estão cada vez mais sofisticados. Veja dicas essenciais para navegar com segurança e proteger seus dados.",
+    "autor": "Arthur Fonseca",
+    "data": "10 Maio 2025",
+    "imagem": "https://santosbancarios.com.br/wp-content/uploads/2023/10/golpe_pela_internet.jpeg"
+
+  },
+  {
+    "id": 4,
+    "categoria": "Saúde e Bem-estar",
+    "titulo": "A Importância da Hidratação Para a Saúde",
+    "descricao": "Manter-se hidratado previne problemas de saúde, melhora o humor e a disposição. Entenda quanto de água é recomendável.",
+    "autor": "Arthur Fonseca",
+    "data": "8 Maio 2025",
+    "imagem": "https://www.truthinformed.com/wp-content/uploads/2018/01/Cup-Of-Cold-Water-e1517247188642.jpeg"
+  }
+]
