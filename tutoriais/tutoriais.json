@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "categoria": "WhatsApp",
+    "titulo": "Como Enviar Mensagens no WhatsApp",
+    "descricao": "Aprenda a enviar mensagens de texto, áudio e mídia para seus contatos usando o WhatsApp, de forma simples e rápida.",
+    "autor": "Arthur Fonseca",
+    "data": "13 de Junho 2023",
+    "imagem": "https://img.odcdn.com.br/wp-content/uploads/2023/04/shutterstock_2138723365-2.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "WhatsApp",
+    "titulo": "Como Fazer Chamadas de Vídeo pelo WhatsApp",
+    "descricao": "Utilize o WhatsApp para fazer chamadas de vídeo com amigos e familiares, aproveitando recursos como múltiplos participantes e qualidade de áudio.",
+    "autor": "Arthur Fonseca",
+    "data": "13 de Junho 2023",
+    "imagem": "https://i.ytimg.com/vi/wdJklviNVlQ/maxresdefault.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "GOV",
+    "titulo": "Como Acessar Serviços no Gov.br",
+    "descricao": "Descubra como usar a plataforma Gov.br para acessar serviços públicos digitais como consultas, documentos e agendamentos com facilidade e segurança.",
+    "autor": "Arthur Fonseca",
+    "data": "16 de Março 1244",
+    "imagem": "https://t2.tudocdn.net/613711?w=1920"
+  },
+  {
+    "id": 4,
+    "categoria": "Youtube",
+    "titulo": "Como Assistir Vídeos no YouTube",
+    "descricao": "Saiba como navegar, buscar e assistir seus vídeos favoritos no YouTube, além de explorar recursos como playlists e assinaturas.",
+    "autor": "Arthur Fonseca",
+    "data": "13 de Junho 2023",
+    "imagem": "https://t2.tudocdn.net/317531?w=1920"
+  }
+]

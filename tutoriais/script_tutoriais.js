@@ -1,5 +1,5 @@
 // Carregamento dinâmico de tutoriais via fetch
-const noticiasGrid = document.getElementById('noticiasGrid');
+const noticiasGrid = document.getElementById('tutoriaisGrid');
 const searchInput = document.getElementById('searchInput');
 const navLinks = document.querySelectorAll('.wire-nav-link');
 let tutoriais = [];
